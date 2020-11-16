@@ -9,7 +9,7 @@ import schedule
 import replay
 import utils
 from configs import *
-from embed import *
+from embed import import Embedder, TransitionEmbedder, TrajectoryEmbedder, InstructionPolicyEmbedder, RecurrentAndTaskIDEmbedder, VariBADEmbedder, RecurrentStateEmbedder, StateInstructionEmbedder, MiniWorldEmbedder, SimpleGridStateEmbedder, IDEmbedder, FixedVocabEmbedder, LinearEmbedder, ExperienceEmbedder
 from train_utils import *
 
 class DQNAgent(object):

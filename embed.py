@@ -10,7 +10,7 @@ import grid
 import relabel
 import utils
 from configs import *
-from dqn import *
+from dqn import DQNAgent, DQNPolicy, RecurrentDQNPolicy, DQN, DuelingNetwork
 from train_utils import *
 
 class Embedder(abc.ABC, nn.Module):

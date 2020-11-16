@@ -12,7 +12,7 @@ import rl
 import utils
 from configs import *
 from dqn import DQNAgent, DQNPolicy, RecurrentDQNPolicy, DQN, DuelingNetwork
-from embed import *
+from embed import import Embedder, TransitionEmbedder, TrajectoryEmbedder, InstructionPolicyEmbedder, RecurrentAndTaskIDEmbedder, VariBADEmbedder, RecurrentStateEmbedder, StateInstructionEmbedder, MiniWorldEmbedder, SimpleGridStateEmbedder, IDEmbedder, FixedVocabEmbedder, LinearEmbedder, ExperienceEmbedder
 
 
 def run_episode(env, policy, experience_observers=None, test=False):
