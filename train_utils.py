@@ -6,6 +6,7 @@ import tqdm.notebook as tqdm
 import dream_template.config as cfg
 from dream_template import grid, city, policy, relabel, rl, utils
 
+
 def run_episode(env, policy, experience_observers=None, test=False):
   """Runs a single episode on the environment following the policy.
 
