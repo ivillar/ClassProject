@@ -6,7 +6,9 @@ import torch
 from torch import nn
 from torch import distributions as td
 from torch.nn import functional as F
-from dream_template import grid, relabel, utils
+import grid
+import relabel
+import utils
 
 class Embedder(abc.ABC, nn.Module):
   """Defines the embedding of an object in the forward method.

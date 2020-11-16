@@ -9,7 +9,11 @@ import torch
 import tqdm.notebook as tqdm
 
 import dream_template.config as cfg
-from dream_template import grid, policy, relabel, rl, utils
+import grid
+import policy
+import relabel
+import rl
+import utils
 from configs import *
 from dqn import *
 from embed import *

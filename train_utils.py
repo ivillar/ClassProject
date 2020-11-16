@@ -4,7 +4,12 @@ import torch
 import tqdm.notebook as tqdm
 
 import dream_template.config as cfg
-from dream_template import grid, city, policy, relabel, rl, utils
+import grid
+import city
+import policy
+import relabel
+import rl
+import utils
 
 
 def run_episode(env, policy, experience_observers=None, test=False):

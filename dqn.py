@@ -5,7 +5,9 @@ import torch
 from torch import nn
 from torch import optim
 from torch.nn import utils as torch_utils
-from dream_template import schedule, replay, utils
+import schedule
+import replay
+import utils
 
 class DQNAgent(object):
   @classmethod
