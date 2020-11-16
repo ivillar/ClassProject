@@ -9,11 +9,7 @@ import torch
 import tqdm.notebook as tqdm
 
 import config as cfg
-import grid
-import policy
-import relabel
-import rl
-import utils
+from dream_template import grid, policy, relabel, rl, utils
 
 def main():
   arg_parser = argparse.ArgumentParser()
