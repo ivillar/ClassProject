@@ -3,7 +3,7 @@ import numpy as np
 import torch
 import tqdm.notebook as tqdm
 
-import dream_template.config as cfg
+import config as cfg
 import grid
 import city
 import policy
