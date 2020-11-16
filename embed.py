@@ -9,6 +9,9 @@ from torch.nn import functional as F
 import grid
 import relabel
 import utils
+from configs import *
+from dqn import *
+from train_utils import *
 
 class Embedder(abc.ABC, nn.Module):
   """Defines the embedding of an object in the forward method.

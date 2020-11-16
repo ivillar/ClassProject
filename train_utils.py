@@ -10,6 +10,9 @@ import policy
 import relabel
 import rl
 import utils
+from configs import *
+from dqn import *
+from embed import *
 
 
 def run_episode(env, policy, experience_observers=None, test=False):
@@ -123,4 +126,4 @@ def log_episode(exploration_episode, exploration_rewards, distances, path):
       f.write("Distance: {}\n".format(distance))
       f.write("Next state: {}\n".format(exp.next_state.observation))
       f.write("=" * 80 + "\n")
-      f.write("\n"
+      f.write("\n")
