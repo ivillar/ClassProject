@@ -10,6 +10,10 @@ import tqdm.notebook as tqdm
 
 import dream_template.config as cfg
 from dream_template import grid, policy, relabel, rl, utils
+from configs import *
+from dqn import *
+from embed import *
+from train_utils import *
 
 def main():
   arg_parser = argparse.ArgumentParser()
