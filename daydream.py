@@ -8,7 +8,7 @@ import numpy as np
 import torch
 import tqdm.notebook as tqdm
 
-import config as cfg
+import dream_template.config as cfg
 from dream_template import grid, policy, relabel, rl, utils
 
 def main():
