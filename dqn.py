@@ -8,9 +8,7 @@ from torch.nn import utils as torch_utils
 import schedule
 import replay
 import utils
-from configs import *
-from embed import import Embedder, TransitionEmbedder, TrajectoryEmbedder, InstructionPolicyEmbedder, RecurrentAndTaskIDEmbedder, VariBADEmbedder, RecurrentStateEmbedder, StateInstructionEmbedder, MiniWorldEmbedder, SimpleGridStateEmbedder, IDEmbedder, FixedVocabEmbedder, LinearEmbedder, ExperienceEmbedder
-from train_utils import *
+from embed import *
 
 class DQNAgent(object):
   @classmethod
