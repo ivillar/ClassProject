@@ -11,7 +11,7 @@ import relabel
 import rl
 import utils
 from configs import *
-from dqn import *
+from dqn import DQNAgent, DQNPolicy, RecurrentDQNPolicy, DQN, DuelingNetwork
 from embed import *
 
 
